@@ -1,4 +1,4 @@
-# lidar-map-init-converter
+# lidar-imu-init-converter
 
 ## Intended use 
 
