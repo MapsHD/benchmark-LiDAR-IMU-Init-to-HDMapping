@@ -14,7 +14,7 @@ Clone the repo
 ```shell
 mkdir -p /test_ws/src
 cd /test_ws/src
-git clone https://github.com/marcinmatecki/Point-LIO-to-HDMapping.git --recursive
+git clone https://github.com/marcinmatecki/LiDAR-IMU-Init-to-HDMapping.git --recursive
 cd ..
 catkin_make
 ```
