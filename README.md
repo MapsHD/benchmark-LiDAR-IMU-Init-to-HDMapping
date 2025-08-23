@@ -32,7 +32,7 @@ and start odometry:
 ```shell 
 cd /test_ws/
 source ./install/setup.sh # adjust to used shell
-roslaunch lidar_map_init xxx.launch
+roslaunch lidar_imu_init xxx.launch
 rosbag play {path_to_bag}
 ```
 
@@ -41,5 +41,5 @@ rosbag play {path_to_bag}
 ```shell
 cd /test_ws/
 source ./install/setup.sh # adjust to used shell
-rosrun point-lio-to-hdmapping listener <recorded_bag> <output_dir>
+rosrun lidar-imu-init-to-hdmapping listener <recorded_bag> <output_dir>
 ```
