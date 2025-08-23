@@ -7,6 +7,24 @@ This repository contains ROS 1 workspace that :
   - submodule to tested revision of LiDAR_IMU_Init
   - a converter that listens to topics advertised from odometry node and save data in format compatible with HDMapping.
 
+## Dependencies
+```shell
+sudo apt install -y nlohmann-json3-dev
+sudo apt install libgflags-dev
+sudo apt install libgoogle-glog-dev
+```
+
+## Ceres
+```shell
+cd ~
+git clone https://ceres-solver.googlesource.com/ceres-solver
+cd ceres-solver && git fetch --all --tags
+git checkout tags/2.1.0
+mkdir build && cd build
+cmake ..
+make -j$(nproc)
+sudo make install
+```
 
 ## Building
 
