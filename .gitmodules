@@ -1,0 +1,11 @@
+[submodule "src/LiDAR_IMU_Init"]
+	path = src/LiDAR_IMU_Init
+	url = https://github.com/hku-mars/LiDAR_IMU_Init
+[submodule "src/lidar-imu-init-to-hdmapping/src/3rdparty/LASzip"]
+	path = src/lidar-imu-init-to-hdmapping/src/3rdparty/LASzip
+	url = https://github.com/LASzip/LASzip.git
+[submodule "src/livox_ros_driver"]
+	path = src/livox_ros_driver
+	url = https://github.com/Livox-SDK/livox_ros_driver.git
+
+
